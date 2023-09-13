@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './Components/PizzaMenu';  //App is whatever function export default is 
+import App from './Components/PizzaApp';  //App is whatever function export default is 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

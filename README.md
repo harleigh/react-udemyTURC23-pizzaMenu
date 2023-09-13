@@ -1,1 +1,1 @@
-Simply learning React; a form where a user can submit a file, javascript to open the file and peek into the file
+The Pizza Menu project from Jonas Schmedtmann's course: The Ultimate React Course 2023: React, Redux & More

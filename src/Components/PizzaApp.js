@@ -5,9 +5,12 @@ import {PizzaMenu} from './PizzaMenu'
 export default function PizzaApp() {
     return (
         <>
-        <Header/>
-        <PizzaMenu/>
-        <Footer/>
+        <div className='container'>
+            <Header/>
+            <PizzaMenu/>
+            <Footer/>
+        </div>
+        
         </>
     )
 }

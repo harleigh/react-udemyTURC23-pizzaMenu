@@ -1,14 +1,16 @@
 
-export function MenuItem( {imgPath, name, description, price}) {
-
+export function MenuItem( {imgPath, name, description, price, isSoldOut}) {
+//className={`pizza ${isSoldOut ? "sold-out" : ""}`}
     return(
         <>
-        <div>
-            <image src={imgPath} alt={name} width={100} height={100}/>
-            {description}
-            {price}
-        </div>
-        
+        <li className={`pizza ${isSoldOut? "sold-out":""}`} >
+            <img src={imgPath} alt={name} width={100} height={100}/>
+                <div>
+                    <h3>{name}</h3>
+                    <p>{description}</p>
+                    <p>Price: {price}</p>
+                </div> 
+        </li>
         </>
     )
 

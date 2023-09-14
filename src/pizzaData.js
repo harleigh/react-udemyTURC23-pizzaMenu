@@ -1,5 +1,7 @@
 
-//an array of objects
+/**
+ * an array of objects
+ */
 export const pizzaData = [
   {
     name: "Focaccia",

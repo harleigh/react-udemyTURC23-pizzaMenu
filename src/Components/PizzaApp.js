@@ -7,10 +7,9 @@ export default function PizzaApp() {
         <>
         <div className='container'>
             <Header/>
-            <PizzaMenu/>
+            <PizzaMenu />
             <Footer/>
-        </div>
-        
+        </div>        
         </>
     )
 }

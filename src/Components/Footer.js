@@ -27,7 +27,7 @@ export function Footer() {
         <>
         <footer>
             {curTime + "  "}
-            {isOpen()?  "We are open!" :
+            {isOpen()?  "We are open! Come eat some Pies!" :
                         "We are currently closed. We're happy to welcome you between 10:30 and 22:30."}
             
         </footer>
